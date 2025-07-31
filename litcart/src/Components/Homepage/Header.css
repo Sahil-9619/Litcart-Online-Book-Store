@@ -1,0 +1,254 @@
+/* ✅ PC layout stays EXACTLY same */
+#container {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 50;
+}
+
+#navbar {
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+#header-top {
+  background-color: #BBD8DB;
+  justify-content: space-around;
+  font-size: 1rem;
+}
+
+#logo {
+  background-image: url("logoused.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#sections {
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+  font-size: 1rem;
+}
+
+#search-btn {
+  min-height: 24px;
+  width: 30px;
+}
+
+#input {
+  width: auto;
+}
+
+#search-i {
+  min-height: 24px;
+  width: 3vh;
+}
+
+#sec2container {
+  position: fixed;
+  right: 0;
+}
+
+#sect2 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#cart-count {
+  position: relative;
+  top: 10px;
+}
+
+#mycart {
+  display: flex;
+  flex-direction: column;
+}
+
+/* ✅ Hide mobile dropdown initially */
+.mobile-only {
+  display: none;
+}
+
+#mobile-dropdown {
+  display: none;
+}
+
+/* ✅ Phones & Tablets */
+@media (max-width: 1024px) {
+  /* ✅ Hide PC nav sections */
+  #sections {
+    display: none;
+  }
+
+  /* ✅ Show hamburger menu */
+  .mobile-only {
+    display: block;
+    margin-left: 10px;
+  }
+
+  /* ✅ Mobile dropdown */
+  #mobile-dropdown {
+    display: flex;
+    flex-direction: column;
+    background: black;
+    color: white;
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    padding: 10px;
+    border-radius: 6px;
+    z-index: 100;
+  }
+
+  #mobile-dropdown a {
+    padding: 5px 0;
+    font-size: 0.85rem;
+  }
+
+  /* ✅ Shrink logo */
+  #logo {
+    width: 40px;
+    height: 30px;
+    background-size: contain;
+  }
+
+  /* ✅ Shift right side more inward so LitBot shows */
+  #sec2container {
+    position: relative;
+    right: auto;
+    margin-left: auto;
+    margin-right: 40px;          /* ✅ inward enough */
+    transform: translateX(-25px); /* ✅ extra inward so LitBot never hides */
+  }
+
+  /* ✅ Keep right side inline */
+  #sect2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 6px;
+  }
+}
+
+/* ✅ Very small phones */
+@media (max-width: 480px) {
+  #header-top {
+    font-size: 0.6rem;
+  }
+
+  /* ✅ tiny screens → one more step inward */
+  #sec2container {
+    margin-right: 50px;         /* ✅ even safer */
+    transform: translateX(-35px);
+  }
+}
+
+/* ✅ Compact & shrink icons on phones */
+@media (max-width: 1024px) {
+  /* search smaller */
+  #input {
+    width: 55px;
+    font-size: 0.65rem;
+    padding: 2px 4px;
+  }
+  #search-i {
+    width: 14px;
+    min-height: 14px;
+    font-size: 0.8rem;
+    padding: 2px;
+  }
+
+  /* account only icon */
+  #acc-sec svg {
+    font-size: 0.9rem;
+  }
+  #acc-sec span,
+  #acc-sec p {
+    display: none;
+  }
+
+  /* cart smaller */
+  #mycart #cart {
+    font-size: 1.2rem;
+  }
+  #cart-count {
+    font-size: 0.6rem;
+    top: 5px;
+  }
+
+  /* litbot shrinks but stays visible */
+  #litbot {
+    font-size: 0.65rem;
+    margin-left: 3px;
+  }
+  #litbot span {
+    font-size: 1rem;
+  }
+
+  /* tighter gaps */
+  #sect2 {
+    gap: 5px;
+  }
+}
+/* ✅ Universal dropdown resize for phones */
+@media (max-width: 1024px) {
+  /* ✅ Any dropdown that appears inside acc-sec */
+  #acc-sec * {
+    font-size: 0.75rem !important;
+  }
+
+  #acc-sec div,
+  #acc-sec ul,
+  #acc-sec li {
+    width: 120px !important;      /* narrower width */
+    max-height: 150px !important; /* prevent too tall */
+    padding: 4px 6px !important;  /* tighter spacing */
+    line-height: 1.2 !important;
+  }
+}
+
+/* ✅ Very small phones */
+@media (max-width: 480px) {
+  #acc-sec * {
+    font-size: 0.65rem !important;
+  }
+
+  #acc-sec div,
+  #acc-sec ul,
+  #acc-sec li {
+    width: 100px !important;      /* even narrower */
+    max-height: 120px !important;
+    padding: 3px 4px !important;
+  }
+}
+/* ✅ Keep Account icon + AccSwitch inline */
+#acc-sec {
+  display: flex;
+  align-items: center;   /* vertically center both */
+  gap: 4px;              /* small space between icon & text */
+}
+
+/* ✅ On phones, keep them even tighter */
+@media (max-width: 1024px) {
+  #acc-sec {
+    gap: 3px;            /* tighter spacing on small screens */
+  }
+}
+/* ✅ Phones & Tablets: move right section left just enough */
+@media (max-width: 1024px) {
+  #sec2container {
+    position: relative;
+    transform: translateX(-18px); /* a bit more left */
+  }
+}
+
+/* ✅ Very small phones → one more step */
+@media (max-width: 480px) {
+  #sec2container {
+    transform: translateX(-25px); /* ensures LitBot visible */
+  }
+}

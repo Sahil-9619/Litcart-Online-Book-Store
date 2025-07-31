@@ -1,0 +1,225 @@
+[
+  {
+    "_id":"100",
+    "S.NO": 1,
+    "Book Title": "The Hunger Games",
+    "Author": "Suzanne Collins",
+    "Publisher": "Scholastic",
+    "Publish Date": "September 14, 2008",
+    "Pages": 374,
+    "Synopsis": "In a dystopian future, teenagers must fight to the death in a televised competition.",
+    "Language": "Hindi",
+    "Dimensions": "5.5 x 8.2 inches",
+    "Subjects": ["Dystopian", "Survival"],
+    "Price": 500,
+    "Picture URL": "https://m.media-amazon.com/images/I/61JZLwGdC2L._SL1000_.jpg"
+  },
+  {
+    "_id":"101",
+    "S.NO": 2,
+    "Book Title": "The Da Vinci Code",
+    "Author": "Dan Brown",
+    "Publisher": "Doubleday",
+    "Publish Date": "March 18, 2003",
+    "Pages": 489,
+    "Synopsis": "A symbologist and cryptologist uncover a conspiracy related to the Holy Grail.",
+    "Language": "English",
+    "Dimensions": "6.1 x 9.2 inches",
+    "Subjects": ["Mystery", "Thriller"],
+    "Price": 600,
+    "Picture URL": "https://m.media-amazon.com/images/I/71QKQ9mwV7L.jpg"
+  },
+  {
+    "_id":"103",
+    "S.NO": 3,
+    "Book Title": "Jurassic Park",
+    "Author": "Michael Crichton",
+    "Publisher": "Alfred A. Knopf",
+    "Publish Date": "November 20, 1990",
+    "Pages": 448,
+    "Synopsis": "Scientists create a theme park with cloned dinosaurs, but the creatures break free.",
+    "Language": "English",
+    "Dimensions": "6.1 x 9.2 inches",
+    "Subjects": ["Science fiction", "Adventure"],
+    "Price": 550,
+    "Picture URL":  "https://covers.openlibrary.org/b/id/7984916-L.jpg"
+  },
+  {
+    "_id":"104",
+    "S.NO": 4,
+    "Book Title": "The Haunting of Hill House",
+    "Author": "Shirley Jackson",
+    "Publisher": "Viking Press",
+    "Publish Date": "October 16, 1959",
+    "Pages": 246,
+    "Synopsis": "A study in psychological terror as four people investigate psychic phenomena in a notoriously haunted mansion.",
+    "Language": "English",
+    "Dimensions": "5.2 x 8 inches",
+    "Subjects": ["Gothic fiction", "Psychological horror"],
+    "Price": 450,
+    "Picture URL": "https://m.media-amazon.com/images/I/61Rljb9GhfL.jpg"
+  },
+
+   {
+        "_id":"105",
+        "S.NO": 5,
+        "Book Title": "The Story of Art",
+        "Author": "E.H. Gombrich",
+        "Publisher": "Phaidon Press",
+        "Publish Date": "1950",
+        "Pages": 688,
+        "Synopsis": "A comprehensive introduction to art history from prehistoric times to the modern era.",
+        "Language": "English",
+        "Dimensions": "6.5 x 9.5 inches",
+        "Subjects": [
+            "Art History",
+            "Visual Arts"
+        ],
+        "Price": 799,
+        "Picture URL": "https://example.com/the_story_of_art.jpg"
+    },
+    {
+        "_id":"106",
+        "S.NO": 6,
+        "Book Title": "Annie Leibovitz at Work",
+        "Author": "Annie Leibovitz",
+        "Publisher": "Phaidon Press",
+        "Publish Date": "November 1, 2008",
+        "Pages": 240,
+        "Synopsis": "The renowned photographer shares stories behind her iconic images and insights into her creative process.",
+        "Language": "English",
+        "Dimensions": "8.5 x 10.5 inches",
+        "Subjects": [
+            "Photography",
+            "Portraiture"
+        ],
+        "Price": 899,
+        "Picture URL": "https://example.com/annie_leibovitz_at_work.jpg"
+    },
+    {
+        "_id":"107",
+        "S.NO": 7,
+        "Book Title": "Ways of Seeing",
+        "Author": "John Berger",
+        "Publisher": "Penguin Books",
+        "Publish Date": "1972",
+        "Pages": 176,
+        "Synopsis": "A revolutionary examination of how our perceptions of art are shaped by cultural assumptions.",
+        "Language": "English",
+        "Dimensions": "5.1 x 7.8 inches",
+        "Subjects": [
+            "Art Theory",
+            "Visual Culture"
+        ],
+        "Price": 499,
+        "Picture URL": "https://example.com/ways_of_seeing.jpg"
+    },
+    {
+        "_id":"108",
+        "S.NO": 8,
+        "Book Title": "1776",
+        "Author": "David McCullough",
+        "Publisher": "Simon & Schuster",
+        "Publish Date": "May 24, 2005",
+        "Pages": 386,
+        "Synopsis": "Focuses on the military aspects of the American Revolution during its titular year.",
+        "Language": "English",
+        "Dimensions": "6.1 x 9.3 inches",
+        "Subjects": [
+            "American history",
+            "Revolutionary War"
+        ],
+        "Price": 599,
+        "Picture URL": "https://example.com/1776.jpg"
+    },
+    {
+        "_id":"109",
+        "S.NO": 9,
+        "Book Title": "Pet Sematary",
+        "Author": "Stephen King",
+        "Publisher": "Doubleday",
+        "Publish Date": "November 14, 1983",
+        "Pages": 373,
+        "Synopsis": "A doctor discovers an ancient burial ground that can bring dead things back to life, with horrifying consequences.",
+        "Language": "English",
+        "Dimensions": "4.2 x 6.8 inches",
+        "Subjects": [
+            "Supernatural horror",
+            "Zombie fiction"
+        ],
+        "Price": 499,
+        "Picture URL": "https://example.com/pet_sematary.jpg"
+    },
+    {
+        "_id":"110",
+        "S.NO": 10,
+        "Book Title": "The Exorcist",
+        "Author": "William Peter Blatty",
+        "Publisher": "Harper & Row",
+        "Publish Date": "26054",
+        "Pages": 385,
+        "Synopsis": "The terrifying story of a 12-year-old girl's demonic possession and the two priests who attempt to save her.",
+        "Language": "English",
+        "Dimensions": "5.5 x 8.3 inches",
+        "Subjects": [
+            "Religious horror",
+            "Demonic possession"
+        ],
+        "Price": 599,
+        "Picture URL": "https://example.com/the_exorcist.jpg"
+    },
+    {
+        "_id":"111",
+        "S.NO": 11,
+        "Book Title": "Frankenstein",
+        "Author": "Mary Shelley",
+        "Publisher": "Lackington, Hughes, Harding, Mavor & Jones",
+        "Publish Date": "January 1, 1818",
+        "Pages": 280,
+        "Synopsis": "A scientist creates a sapient creature in an unorthodox scientific experiment, with tragic consequences.",
+        "Language": "English",
+        "Dimensions": "5.1 x 7.7 inches",
+        "Subjects": [
+            "Gothic fiction",
+            "Science fiction horror"
+        ],
+        "Price": 399,
+        "Picture URL": "https://example.com/frankenstein.jpg"
+    },
+    {
+        "_id":"112",
+        "S.NO": 12,
+        "Book Title": "It",
+        "Author": "Stephen King",
+        "Publisher": "Viking Press",
+        "Publish Date": "September 15, 1986",
+        "Pages": 1138,
+        "Synopsis": "Seven children are terrorized by an evil entity that exploits their fears, returning 27 years later when it appears again.",
+        "Language": "English",
+        "Dimensions": "6.1 x 9.2 inches",
+        "Subjects": [
+            "Supernatural horror",
+            "Coming-of-age"
+        ],
+        "Price": 999,
+        "Picture URL": "https://example.com/it.jpg"
+    },
+    {
+        "_id":"113",
+        "S.NO": 13,
+        "Book Title": "The Silence of the Lambs",
+        "Author": "Thomas Harris",
+        "Publisher": "St. Martin's Press",
+        "Publish Date": "August 29, 1988",
+        "Pages": 338,
+        "Synopsis": "An FBI trainee interviews an incarcerated serial killer to help catch another killer who skins his victims.",
+        "Language": "English",
+        "Dimensions": "4.2 x 6.9 inches",
+        "Subjects": [
+            "Psychological horror",
+            "Crime fiction"
+        ],
+        "Price": 499,
+        "Picture URL": "https://example.com/the_silence_of_the_lambs.jpg"
+    }
+]

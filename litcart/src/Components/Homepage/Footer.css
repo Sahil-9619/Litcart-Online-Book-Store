@@ -1,0 +1,31 @@
+#logo-sec{
+    display: flex;
+    justify-content: center;
+
+}
+
+#footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#logo-bt{
+    background-image: url("logoused.jpg");
+    background-repeat: none;
+    background-position:center;
+    background-size: cover;
+}
+p{
+    text-align: center;
+
+}
+
+#line{
+        width:99vmin;
+        text-align: center;
+}
+#sales-section{
+    display: flex;
+    justify-content: space-evenly;
+}
